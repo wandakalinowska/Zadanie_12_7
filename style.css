@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i');
+
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  background-color: #636e72; 
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.column {
+  min-width: 300px;
+  width: 32%;
+  float: left;
+  min-height: 553px;
+  margin: 5px;
+  background-color: #ccc;
+  }
+
+.column-container {
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; 
+}
+
+.ui-sortable {
+  min-height: 80px; }
+  
+ul.card-list.ui-sortable {
+  min-height: 50px;
+  padding: 0; 
+}
+
+.card {
+  background-color: rgba(255, 234, 167, 0.7);
+  list-style-type: none;
+  margin: 0 10px 10px 10px;
+  border-top: 20px solid #fdcb6e;
+  min-height: 150px;
+  padding: 0 10px 10px 10px;
+  border-radius: 20%;
+}
+
+.board {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px 5px 5px 5px;
+  background-color: #dfe4ea;
+  text-align: center;
+ }
+
+.board h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4D4749;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff; 
+}
+
+.create-column {
+  color: #55efc4;
+  background-color: white;
+  border: solid 5px #55efc4;
+  cursor: pointer;
+}
+.create-column:hover {
+  color: white;
+  background-color: #55efc4;
+}
+
+.column-add-card  {
+  background-color: #CCC;
+  border: solid 5px #74b9ff;
+  margin-left: 5px;
+  cursor: pointer;
+  
+}
+
+.column-add-card:hover {
+  background-color: #74b9ff;
+}
+
+.btn-delete {
+  color: #ff4757;
+  background-color: #ccc;
+  border: 5px solid #ff4757;
+  padding: 10px 14px; 
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  color: white;
+  background-color: #ff4757;
+  border: solid 6px #ff4757;  
+}
+
+li > .btn-delete {
+  color: ff4757;
+  background-color: #ffeaa7;
+  margin: 10px;
+  float: right; 
+}
+
+li > .btn-delete:hover {
+  border: solid 6px #ff4757; 
+}
+
+.card-placeholder {
+  background-color: #FDCB6E;
+  margin: 0 10px 10px 10px;
+  min-height: 150px;
+  padding: 0 10px 10px 10px;
+  border-radius: 20%;
+}

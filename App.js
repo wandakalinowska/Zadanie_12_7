@@ -1,6 +1,7 @@
 // USTAWIENIE ZMIENNYCH DO KOMUNIKACJI Z SERWEREM
 
-var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
+var prefix = "https://cors-anywhere.herokuapp.com/";
+var baseUrl = prefix + "https://kodilla.com/pl/bootcamp-api";
 var myHeaders = {
   'X-Client-Id': '2677',
   'X-Auth-Token': '5a26eb4d2a1e176ba38c90c84b617461'

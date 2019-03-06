@@ -1,6 +1,8 @@
 # Tablica Kanban
 
-Aaplikacja kanban, która jest połaczona z API (https://kodilla.com/pl/bootcamp-api), który umożliwia modyfikacje tablicy kanban bez utraty zmian po odświeżeniu strony.
+https://wandakalinowska.github.io/tab_kanban/
+
+Aaplikacja kanban, która jest połaczona z API, umożliwia modyfikacje tablicy kanban bez utraty zmian po odświeżeniu strony.
 
 ###Rozwiązania, technologie i narzędzia:
 

@@ -11,6 +11,6 @@ Umożliwia modyfikacje tablicy kanban bez utraty zmian po odświeżeniu strony.
 * CSS 3
 * RWD
 * Sass
-* Jquery
+* jQuery
 * AJAX
 * API

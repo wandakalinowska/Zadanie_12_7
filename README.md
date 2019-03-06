@@ -12,4 +12,4 @@ Aaplikacja kanban, która jest połaczona z API, umożliwia modyfikacje tablicy 
 * Sass
 * Jquery
 * AJAX
-* API (https://kodilla.com/pl/bootcamp-api)
+* API

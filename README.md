@@ -2,7 +2,8 @@
 
 https://wandakalinowska.github.io/tab_kanban/
 
-Aaplikacja kanban, która jest połaczona z API, umożliwia modyfikacje tablicy kanban bez utraty zmian po odświeżeniu strony.
+Aplikacja Kanban, która jest połaczona z API.
+Umożliwia modyfikacje tablicy kanban bez utraty zmian po odświeżeniu strony.
 
 ### Rozwiązania, technologie i narzędzia:
 

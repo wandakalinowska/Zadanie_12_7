@@ -8,10 +8,10 @@ function Column(id, name) {
 	function createColumn() {
 		// TWORZENIE NOWYCH WĘZŁÓW
 		var column = $('<div class="column"></div>');
+		var columnDelete = $('<button class="btn-delete">- delete </button>'); //usuń kolumnę
 		var columnTitle = $('<h2 class="column-title">' + self.name + '</h2>');
 		var columnCardList = $('<ul class="card-list"></ul>');
-		var columnDelete = $('<button class="btn-delete">X | Usuń kolumnę</button>');
-		var columnAddCard = $('<button class="column-add-card">Dodaj kartę</button>');
+		var columnAddCard = $('<button class="column-add-card">+ add task</button>');
 
 		
 		// PODPINANIE ODPOWIEDNICH ZDARZEŃ POD WĘZŁY
@@ -37,7 +37,7 @@ function Column(id, name) {
 		});
 			
 			// KONSTRUOWANIE ELEMENTU KOLUMNY
-		column.append(columnTitle).append(columnDelete).append(columnAddCard).append(columnCardList);
+		column.append(columnDelete).append(columnTitle).append(columnAddCard).append(columnCardList);
 		return column;
 		}
 	}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
     box-sizing: border-box; 
@@ -6,8 +6,8 @@
 
 body {
     margin: 0;
-    background-color: #fafafa;
-    font-family: 'Lora', serif;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
 } 
 
 .board {
@@ -18,47 +18,45 @@ body {
     padding: 10px 5px 5px 5px;
     background-color: transparent;
     text-align: center;
-    box-shadow: 5px 5px 10px black;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
  }
 
 .board h1 {
     text-align: center;
-    background-color: #977678;
-    box-shadow: 5px 5px 10px black;
     text-transform: uppercase;
+    color: #000;
+    font-weight: thin;
+    letter-spacing: 5px;
 }
 
 .board h2 {
-    background-color: #977678;
-    box-shadow: 5px 5px 10px black;
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 button {
     padding: 10px;
+    font-size: 14px;
     border: none;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'Lora', serif;
+    text-transform: lowercase;
+    font-family: 'Roboto';
+    letter-spacing: 3px;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .create-column {
     color: black;
     background-color: transparent;
     border: none;
-    border-bottom: solid 2px #977678;
-    border-top: solid 2px #977678;
     cursor: pointer;
+    border-bottom: 1px solid #fff;
 }
 
 .create-column:hover {
-    color: #fff;
-    background-color: #977678;
+    border-bottom: 1px solid #000;
+    outline: 0;
+
 }
-
-
 
 .column-container {
     margin-top: 12px;
@@ -75,14 +73,11 @@ button {
     min-width: 300px;
     width: 32%;
     float: left;
-    min-height: 553px;
+    min-height: 200px;
+    height: 100%;
     margin: 5px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    box-shadow: 5px 5px 10px black;
-    background-color: #96CCD3;
+    border: solid 1px #ccc;
 }
-
 
 .ui-sortable {
     min-height: 80px; 
@@ -96,62 +91,67 @@ ul.card-list.ui-sortable {
 .card {
     list-style-type: none;
     margin: 0 10px 10px 10px;
-    border-top: 20px solid #977678;
     min-height: 80px;
     padding: 0 10px 10px 10px;
-    box-shadow: 5px 5px 10px black;
-    background-color: rgb(50, 158, 171, 0.6);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    background-color:#fff;
+    border: solid 1px #ccc;
+    border-top: 30px solid rgb(125, 168, 143);
 }
 
+
 .card-placeholder {
-    background-color: #977678;
     margin: 0 10px 10px 10px;
     min-height: 80px;
     padding: 0 10px 10px 10px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+}
+
+.card-description {
+    text-align: left;
+    line-height: 1.4em;
 }
 
 .column-add-card  {
-    background-color: #977678;
-    box-shadow: 5px 5px 10px black;
+    color: rgb(118, 167, 118);
     cursor: pointer;
     width: 100%;
+    text-transform: lowercase;
+    text-align: left;
 }
 
-.column-add-card:hover {
-    background-color: #96CCD3;
-}
 
 .btn-delete {
-    color: #977678;
-    font-size: 14px;
-    background-color: #FAFAFA;
+    color: red;
+    font-size: 12px;
+    background-color: transparent;
     cursor: pointer;
     text-align: right;
-    width: 100%;
+    width: 22%;
+    font-family: 'Roboto';
+    border-bottom: solid 1px #fff;
+    float: right;
+    margin-right: 10px;
 }
 
 .btn-delete:hover {
-    color: red;
-    text-shadow: 1px 1px red;
+    border-bottom: 1px solid red;
 }
 
 
 li > .btn-delete-card {
-    color: black;
-    background-color:transparent;
-    margin: 10px;
+    font-family: 'Roboto';
+    color: red;
+    margin: 5px;
     border: none;
-    border-left: solid 1px black;
     float: right; 
+    cursor: pointer;
+    border-bottom: solid 1px #fff;
+    padding: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
 }
 
 li > .btn-delete-card:hover {
-    border: solid 1px red; 
     color: red;
-    box-shadow:inset 0px 0px 1px 2px red;
+    border-bottom: solid 1px red;
 }
 
